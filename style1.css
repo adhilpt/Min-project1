@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+     height: 100%;
+     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sh{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 200px;
+     width: 200px;
+    /* background-color: rgba(29, 11, 230, 0.946); */
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ci{
+    border-radius: 50%;
+}
+#ci:hover{
+    background-color: aqua;
+}
+#dia{
+    rotate: 45deg;
+    margin-top: 80px;
+}
+#dia:hover{
+    background-color: blue;
+}
+#sq:hover{
+    background-color: crimson;
+}
+#dia h1{
+    rotate: -45deg;
+} 
